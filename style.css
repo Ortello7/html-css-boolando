@@ -23,3 +23,101 @@ header nav li{
 header nav{
     padding: 0.8rem 0;
 }
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+div.Logo > img{
+    height: 40px;
+}
+
+article.item .item-info{
+    font-size: 0.8rem;
+}
+
+article.item .item-image{
+    position: relative;
+}
+
+article.item:hover .item-image img.primary,
+article.item .item-image img.secondary{
+    display: none;
+}
+
+article.item:hover .item-image img.secondary,
+article.item .item-image img.primary{
+    display: inline-block;
+}
+
+article.item .item-image img{
+    width: 100%;
+}
+
+article.item .info-product{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div.interactions,
+div.favourite{
+    position: absolute;
+}
+
+div.interactions{
+    bottom: 1rem;
+}
+
+div.favourite{
+    height: 70px;
+    width: 70px;
+    font-size: 3rem;
+    background-color: white;
+    padding: 1rem;
+    top: 1rem;
+    right: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.container > article.item{
+width: calc((100 / 3) - 2rem);
+margin-bottom: 2rem;
+}
+
+span.tag-discount{
+    background-color: red;
+}
+
+p.info-price{
+    color: red;
+    font-weight: bold;
+}
+
+article.item .info-old-price{
+    color: black;
+    font-weight: 500;
+    text-decoration: line-through;
+}
