@@ -16,6 +16,32 @@ header{
     z-index: 1;
 }
 
+header,
+footer{
+    padding: 0.8rem 0;
+    color: white;
+    background-color: #ff6900; 
+}
+
+main{
+    padding: 3rem;
+}
+
+footer{
+    background-color: #1a1a1a;
+}
+
+ul{
+    list-style-type: none;
+}
+
+span.tag{
+    padding: .5rem;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+
 header nav li{
     margin-right: 0.8rem;
 }
@@ -23,7 +49,6 @@ header nav li{
 header nav{
     padding: 0.8rem 0;
 }
-
 
 .container{
     max-width: 1200px;
