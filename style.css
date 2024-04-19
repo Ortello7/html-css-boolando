@@ -8,3 +8,18 @@
 body{
     font-family: sans-serif;
 }
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+header nav li{
+    margin-right: 0.8rem;
+}
+
+header nav{
+    padding: 0.8rem 0;
+}
